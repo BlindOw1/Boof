@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Boof</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/076b2ea1b2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link  rel="stylesheet" href="stylesheet.css">
     <title>Boof</title>
     <link  rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
+    <div class="container">
+
+        <! This is the icon >
+
+        <! this is the navbar >
+        <nav class="navbar">
+            <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+            <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+                <span class="material-icons">menu</span>
+            </button>
+
+            <h1 class="navbar-title">Boof</h1>
+            <ul class="navbar-menu">
+
+            </ul>
+
+        </nav>
+
+        <script type="text/javascript">
+            const toggleMenuOpen = () => document.body.classList.toggle("open");
+        </script>
+
     <div class="header">
         <h1>Coming soon...</h1>
     </div>
