@@ -10,7 +10,9 @@
 .header {
     color: white;
     text-align: center;
-    font-family: 'Poppins';
+    font-family: 'Allura';
+    font-weight: lighter;
+    font-size: x-large;
 }
 
 .container{
@@ -33,6 +35,30 @@
     content: "";
     display: block;
     height: 50px;
+}
+
+#aboutUs{
+    text-align: center;
+}
+.solution{
+    font-size: larger;
+}
+.about{
+    text-align: center;
+    color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.contact{
+    text-align: center;
+    color: white;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.solution{
+    color: white;
 }
 
 .icon-container{
